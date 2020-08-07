@@ -1,0 +1,125 @@
+.curveWrap {
+	 opacity: 1;
+	 width: 150vw;
+	 height: 100vh;
+	 position: absolute;
+	 transform: translateX(-30vw) rotate(-15deg);
+	 will-change: transform;
+}
+ .curveWrap .curve {
+	 stroke-linecap: round;
+	 stroke-opacity: 0;
+}
+ .curveWrap .curve path {
+	 transform-origin: center;
+}
+ .curveWrap .curve path:nth-child(1) {
+	 stroke-width: 11;
+	 animation: curve 35s linear 1.4s infinite;
+}
+ .curveWrap .curve path:nth-child(6n + 1) {
+	 stroke: goldenrod;
+}
+ .curveWrap .curve path:nth-child(6n + 2) {
+	 stroke: cornflowerBlue;
+}
+ .curveWrap .curve path:nth-child(6n + 3) {
+	 stroke: GreenYellow;
+}
+ .curveWrap .curve path:nth-child(6n + 4) {
+	 stroke: lightblue;
+}
+ .curveWrap .curve path:nth-child(6n + 5) {
+	 stroke: darkgreen;
+}
+ .curveWrap .curve path:nth-child(6n + 6) {
+	 stroke: olive;
+}
+ .curveWrap .curve path:nth-child(2) {
+	 stroke-width: 32;
+	 animation: curve 35s linear 2.8s infinite;
+}
+ .curveWrap .curve path:nth-child(6n + 1) {
+	 stroke: goldenrod;
+}
+ .curveWrap .curve path:nth-child(6n + 2) {
+	 stroke: cornflowerBlue;
+}
+ .curveWrap .curve path:nth-child(6n + 3) {
+	 stroke: GreenYellow;
+}
+ .curveWrap .curve path:nth-child(6n + 4) {
+	 stroke: lightblue;
+}
+ .curveWrap .curve path:nth-child(6n + 5) {
+	 stroke: darkgreen;
+}
+ .curveWrap .curve path:nth-child(6n + 6) {
+	 stroke: olive;
+}
+ .curveWrap .curve path:nth-child(3) {
+	 stroke-width: 39;
+	 animation: curve 35s linear 4.2s infinite;
+}
+ .curveWrap .curve path:nth-child(6n + 1) {
+	 stroke: goldenrod;
+}
+ .curveWrap .curve path:nth-child(6n + 2) {
+	 stroke: cornflowerBlue;
+}
+ .curveWrap .curve path:nth-child(6n + 3) {
+	 stroke: GreenYellow;
+}
+ .curveWrap .curve path:nth-child(6n + 4) {
+	 stroke: lightblue;
+}
+ .curveWrap .curve path:nth-child(6n + 5) {
+	 stroke: darkgreen;
+}
+ .curveWrap .curve path:nth-child(6n + 6) {
+	 stroke: olive;
+}
+ .curveWrap .curve path:nth-child(4) {
+	 stroke-width: 31;
+	 animation: curve 35s linear 5.6s infinite;
+}
+ .curveWrap .curve path:nth-child(6n + 1) {
+	 stroke: goldenrod;
+}
+ .curveWrap .curve path:nth-child(6n + 2) {
+	 stroke: cornflowerBlue;
+}
+ .curveWrap .curve path:nth-child(6n + 3) {
+	 stroke: GreenYellow;
+}
+ .curveWrap .curve path:nth-child(6n + 4) {
+	 stroke: lightblue;
+}
+ .curveWrap .curve path:nth-child(6n + 5) {
+	 stroke: darkgreen;
+}
+ .curveWrap .curve path:nth-child(6n + 6) {
+	 stroke: olive;
+}
+ @keyframes curve {
+	 0% {
+		 transform: rotateX(0deg) scaley(1) skewY(0deg);
+		 stroke-opacity: 0;
+	}
+	 50% {
+		 transform: rotateX(360deg) scaley(1) skewY(8deg);
+		 stroke-opacity: 1;
+	}
+	 100% {
+		 transform: rotateX(0deg) scaley(1) skewY(0deg);
+		 stroke-opacity: 0;
+	}
+}
+ html, body {
+	 height: 100vh;
+}
+ body {
+	 background: radial-gradient(#222, #000);
+	 background-repeat: repeat;
+}
+ 
